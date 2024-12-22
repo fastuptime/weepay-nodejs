@@ -18,6 +18,7 @@ To write an app using the SDK
 
 ```javascript
 const  weepay = require('weepay-nodejs');
+const { Currency, Locale, PaymentGroup, PaymentChannel, ProductType } = require('weepay-nodejs/weepay/Constants');
 ```
 
 - Create config options, with parameters (bayiId, apiKey, secretKey).
